@@ -22,7 +22,11 @@
 
     </div>
 </div>
-<app-game-description class="bin-bottom"></app-game-description>
+
+
+<app-game-description [card]="currentCard" class="bin-bottom"></app-game-description>
+
+
 <button mat-fab color="primary" class="btn-add" (click)="openDialog()">
     <mat-icon>add</mat-icon>
   </button>
